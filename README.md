@@ -1,1 +1,1 @@
-# FIS-Net-NIR-and-VIS-Iris-Segmentation
+# FIS-Net: NIR and VIS Iris-Segmentation Model
