@@ -1,3 +1,2 @@
-# FIS-Net: NIR and VIS Iris-Segmentation Model
-
+# FISNet: A Learnable Fusion-based Iris Segmentation Network Improving Robustness Across NIR and VIS Modalities
 code : Coming soon !
