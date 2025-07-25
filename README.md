@@ -82,7 +82,7 @@ Interval-V4 challenging dataset.
 <p align="center">
   <img src="assets/FISNET_8_segmentation_map.png" alt="Architecture" width="600"/>
 </p>
-Figure: FIGURE illustrates the segmentation map predicted from different models and experiments on diverse iris image dataset. The
+Figure: Iillustrates the segmentation map predicted from different models and experiments on diverse iris image dataset. The
 first column displays the original different NIR and VIS iris images, while the second column provides the corresponding ground truth masks.
 Columns third, fourth, fifth, sixth, and seventh showcase the segmentation outcomes from each protocol and different models.
 
