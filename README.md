@@ -61,7 +61,7 @@ under non-ideal imaging conditions.
 
 ## Precision and Recall Vs. IoU threshold
 <p align="center">
-  <img src="assets/FISNET_6_precision_recall_iou_plot_FISNETC_Protocol_4_final-1" alt="Architecture" width="700"/>
+  <img src="assets/FISNET_6_precision_recall_iou_plot_FISNETC_Protocol_4_final-1.png" alt="Architecture" width="700"/>
 </p>
 
 ## Results
