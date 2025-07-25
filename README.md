@@ -61,18 +61,43 @@ under non-ideal imaging conditions.
 
 ## Precision and Recall Vs. IoU threshold
 <p align="center">
-  <img src="assets/FISNET_6_precision_recall_iou_plot_FISNETC_Protocol_4_final-1.png" alt="Architecture" width="700"/>
+  <img src="assets/FISNET_6_precision_recall_iou_plot_FISNETC_Protocol_4_final-1.png" alt="Architecture" width="600"/>
 </p>
+Figure : FISNETC model Precision and recall for different data sets
+based on Jaccard index (IOU). In FIGURE, the bars and different colored
+lines represent precision and recallfor different data sets (CASIA V4:
+Lamp-V4, Interval-V4, Thousand-V4, Syn-V4, Twins-V4, UBIRIS, BI-P1,
+BI-P2, DI-P1, DI-P2, DI-P3 and AFHIRIS-V1), respectively, FIGURE depict
 
-## Results
+## Ablation Study
 <p align="center">
-  <img src="assets/VREyeSAM_updated_overlay-compressed.png" alt="Architecture" width="600"/>
+  <img src="assets/FISNET_7.png" alt="Architecture" width="600"/>
 </p>
-Figure: Visual comparison of iris segmentation results across multiple models. The first row displays the original iris images, the second row shows the corresponding ground truth masks, and rows three to seven illustrate the predicted masks from five different segmentation models. Last Overlays column shows GT mask in green, predicted mask in red, and overlapping area i.e both masks agree in yellow color.
+Figure : Ablation study results showing the impact of different
+components of the proposed iris fusion network FISNET on CASIA-Iris
+Interval-V4 challenging dataset.
 
+
+## Results : Segmentation Map
+<p align="center">
+  <img src="assets/FISNET_8_segmentation_map.png" alt="Architecture" width="600"/>
+</p>
+Figure: FIGURE illustrates the segmentation map predicted from different models and experiments on diverse iris image dataset. The
+first column displays the original different NIR and VIS iris images, while the second column provides the corresponding ground truth masks.
+Columns third, fourth, fifth, sixth, and seventh showcase the segmentation outcomes from each protocol and different models.
+
+## Other related code
+<!-- Badge for IrisParseNet Code -->
+<a href="https://github.com/xiamenwcy/IrisParseNet?tab=readme-ov-file">
+  <img src="https://img.shields.io/badge/IrisParseNet-Code-blue" alt="IrisParseNet Code">
+</a>
+
+<!-- Badge for IrisParseNet Docker -->
+<a href="https://www.codewithgpu.com/i/xiamenwcy/IrisParseNet/casia_caffe_tifs">
+  <img src="https://img.shields.io/badge/IrisParseNet-Docker-green" alt="IrisParseNet Docker">
+</a>
 
 ## Citation
-
 If you find this work useful, please cite our paper:
 
 ```bibtex
@@ -82,27 +107,3 @@ If you find this work useful, please cite our paper:
   Conference={IJCB},
   year={2025}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-code : Coming soon !
-IrisParseNet code - https://github.com/xiamenwcy/IrisParseNet?tab=readme-ov-file
-IrisParseNet Docker -  https://www.codewithgpu.com/i/xiamenwcy/IrisParseNet/casia_caffe_tifs
